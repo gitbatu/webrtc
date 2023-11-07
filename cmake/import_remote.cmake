@@ -8,7 +8,7 @@ set(import_remote_path "${CMAKE_CURRENT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/_imp
 	CACHE STRING "Folder for importing projects")
 set(import_remote_bin_path "${CMAKE_CURRENT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/_imported.build"
 	CACHE STRING "Binary dir for building projects")
-set(import_remote_default_tag "master"
+set(import_remote_default_tag "main"
 	CACHE STRING "Default git branch for remote projects")
 set(import_remote_default_cmake_root "./"
 	CACHE STRING "Default subdirectory where to find the main CMakeLists.txt")
